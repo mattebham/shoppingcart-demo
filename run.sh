@@ -3,7 +3,7 @@
 PROJECT_DIR="shopping-cart-demo"
 
 echo "Building ${PROJECT_DIR} app..."
-mvn clean install -DskipTests
+mvn clean install
 
 rc=$?
 if [ $rc -ne 0 ]; then
