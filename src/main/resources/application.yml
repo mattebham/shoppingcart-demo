@@ -1,0 +1,18 @@
+# ===================================================================
+# Spring boot properties
+# ===================================================================
+
+spring:
+  application:
+    name: Shopping Cart Demo
+
+server:
+  context.path: /api
+  port: 8080
+
+camel:
+  component:
+    servlet:
+      mapping:
+        enabled: true
+        context-path: /api/*
